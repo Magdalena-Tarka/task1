@@ -9,9 +9,26 @@
 </head>
 
 <body>
-    <div>
-        Hello
+    <div class="container">
+        <div class="wrapper">
+            <h1 class="title">Hello, let's play..</h1>
+            <p>When you click on the button it will choose 20 random numbers and segregate it in two columns.</p>
+            <button onClick="btnHandler()" class="btn">Click me!</button>
+            <p class="randomNumbers"></p>
+            <div class="listsWrapper">
+                <div class="even box">
+                    <h4 class="listTitle">EVEN</h4>
+                    <ul class="evenList list"></ul>
+                </div>
+                <div class="odd box">
+                    <h4 class="listTitle">ODD</h4>
+                    <ul class="oddList list"></ul>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

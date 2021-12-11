@@ -1,0 +1,56 @@
+.container {
+    max-width: 1200px;
+    margin: 24px auto;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    align-self: center;
+}
+
+.btn {
+    width: 25%;
+    max-width: 150px;
+    margin: 0 auto;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+.listsWrapper {
+    display: none;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.listsWrapper.visible {
+    display: flex;
+}
+
+.box {
+    margin: 24px 0;
+    background: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.listTitle {
+    margin: 12px 0;
+}
+
+.list {
+    text-align: center;
+    width: 80px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 6px;
+}
+.listElement {
+    list-style: none;
+    margin: 6px auto;
+}
